@@ -9,7 +9,7 @@ author_search = re.compile(r'(author:)(?P<author>.*)', re.IGNORECASE)
 translator_search = re.compile(r'(translator:)(?P<translator>.*)', re.IGNORECASE)
 illustrator_search = re.compile(r'(illustrator:)(?P<illustrator>.*)', re.IGNORECASE)
 
-#searches = {}
+
 for fl in (os.listdir(directory)):
     if fl.endswith('.txt'):       #if it's a text file
         #print 'Processing {0}.'.format(fl)

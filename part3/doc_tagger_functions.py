@@ -1,15 +1,6 @@
 import sys
-import os
 import re
-
-'''
-create sep functions to handle
--iterating over and opening files
--compiling user supplied keywords into regular expressions
--counting keywords in a document
--stripping out metadata(author title etc)
-- a main() function that calls the other functions supplying them with the necessary user supplied arguments at runtime 
-'''
+import os
 
 # Preconditions
 # full_text of the gutenberg article
